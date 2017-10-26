@@ -1,0 +1,44 @@
+.clearfix{
+    float:none;
+    clear: both;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: Helvetica,"Helvetica Neue",Arial;
+}
+
+#content{
+    width:80%;
+    min-height:500px;
+    margin:0 auto;
+    margin-top: 20px;
+    border:1px solid #ccc;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #ddd;
+}
+
+header{
+    padding: 15px;
+    background: #1976D2;
+}
+header #logo{
+    height: 70px;
+    display: block;
+    float: left;
+}
+header h1{
+    margin: 0px;
+    margin-left:15px;
+    line-height: 55px;
+    padding-left:15px;
+    padding-right: 15px;
+    font-size: 25px;
+    text-transform: uppercase;
+    border-top:1px solid white;
+    border-bottom:1px solid white;
+    color: white;
+}
