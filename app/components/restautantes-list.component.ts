@@ -8,7 +8,7 @@ import {Restaurante} from "../model/Restaurante";
 @Component({
     selector: 'restaurantes-list',
     templateUrl: 'app/view/restaurantes-list.html',
-    directives: [RestauranteService]
+    providers: [RestauranteService]
 })
 
 // Clase del componente donde iran los datos y funcionalidades
